@@ -1,11 +1,9 @@
-def get_book_text(path_to_file):
-    with open(path_to_file) as f:
-        file_contents = f.read()
-    return file_contents
+from stats import sys
 
-def main():
-    book = "books/frankenstein.txt"
-    text = get_book_text(book)
-    print(text)
+from stats import get_book_text
 
-main()
+from stats import get_chars_dict
+
+from stats import chars_dict_to_sorted_list
+
+from stats import sort_on
